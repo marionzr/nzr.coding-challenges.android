@@ -36,6 +36,7 @@ Developer options and turning all the following options off:
 Due a time limit some features wasn't properly implement though still close to the requirement. 
 Here is a list of missing features and what need to be improved:
 
+* Show the forecast instead current weather
 * Implement Facebook authentication
 * Check accessibility requisites
 * The look and feel of some icons needs to be improved.

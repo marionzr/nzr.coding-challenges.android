@@ -36,4 +36,5 @@
     <string name="weather_image_description">weather image description</string>
     <string name="logged_as">You are logged as %1$s</string>
     <string name="location_source_gps">GPS</string>
+    <string name="check_permissions">Check the permissions</string>
 </resources>
