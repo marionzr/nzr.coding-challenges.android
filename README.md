@@ -11,7 +11,7 @@ You can find more about me on my [LinkedIn page](https://www.linkedin.com/in/ssa
 
 The following Android app was written using Java/Kotlin and Native SDK
 
-1. Your Calc
+1. AC - Interview App
 
 ---
 
@@ -19,7 +19,7 @@ The following Android app was written using Java/Kotlin and Native SDK
 
 The following Android/iOS apps was written using some kind of hybrid framework like Cordov, Ionic or Flutter
 
-1. Your Calc
+
 
 ---
 
