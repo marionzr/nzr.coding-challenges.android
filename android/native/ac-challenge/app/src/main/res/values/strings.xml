@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">android-challenge</string>
+
+    <!-- SearchFragView -->
+    <string name="search_view">Location Search</string>
+    <string name="btn_seach_description">Search</string>
+    <string name="edt_location_hint">Enter a location</string>
+    <string name="txt_location_placeholder">Coupertino</string>
+    <string name="display_all_on_map">Display All on Map</string>
+    <string name="no_results">No Results</string>
+    <string name="btn_show_location">Show location</string>
+
+    <!-- MapActView -->
+    <string name="map_view_title">Location View</string>
+    <string name="map_view_subtitle_display_all_mode">Display all mode</string>
+    <string name="delete_confirmation">Are you sure?</string>
+    <string name="delete_confirmation_title">Delete saved address?</string>
+    <string name="delete_confirmation_yes">Yes. Delete saved address</string>
+    <string name="delete_confirmation_cancel">Cancel</string>
+    <string name="delete_success">The address was successfully deleted.</string>
+    <string name="delete_failed_invalid_id">Sorry. We could not delete the address.\nCause: Invalid id.</string>
+    <string name="delete_failed_unexpected">Sorry. We failed to delete the address.\nCause: Unexpected error.</string>
+    <string name="save_success">The address was successfully saved.</string>
+    <string name="save_failed_invalid_location">Sorry. We could not save the address.\nCause: Invalid location.</string>
+    <string name="save_failed_invalid_feature_name">Sorry. We could not save the address.\nCause: Invalid address name.</string>
+    <string name="save_failed_unexpected">Sorry. We failed to save the address.\nCause: Unexpected error.</string>
+    <!-- Map toolbar -->
+    <string name="mni_save">Save</string>
+    <string name="mni_delete">Delete</string>
+
+    <!-- APIs -->
+    <!-- Please replace the Google API Key by yours -->
+    <string name="google_maps_api_key">AIzaSyD1Vw_li9RU6s29rtv1AGhrSzpRvtVDpu0</string>
+    <string name="map_feature_not_available">Sorry. The map is not available</string>
+    <string name="google_maps_api_url">https://maps.googleapis.com/maps/api/geocode/json?address=%1$s&amp;key=%2$s</string>
+</resources>

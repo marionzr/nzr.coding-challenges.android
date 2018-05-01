@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (c) 2018. Mário Heleno Nazareth Santos - ssannttoss@gmail.com
+-->
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.ssannttoss.android_challenge.mvc.view.search.SearchFragView">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <android.support.constraint.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <com.ssannttoss.framework.ui.widget.EditTextExt
+                android:id="@+id/edt_location"
+                app:required="true"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="16dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="16dp"
+                android:ems="10"
+                android:hint="@string/edt_location_hint"
+                android:inputType="textPersonName"
+                app:layout_constraintEnd_toStartOf="@+id/btn_search"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <com.ssannttoss.framework.ui.widget.ImageButtonExt
+                android:id="@+id/btn_search"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="16dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="16dp"
+                android:baselineAlignBottom="false"
+                android:contentDescription="@string/btn_seach_description"
+                android:src="@drawable/ic_search_grey_500_24dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/edt_location"
+                app:layout_constraintTop_toTopOf="parent" />
+
+        </android.support.constraint.ConstraintLayout>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="24dp">
+
+        <com.ssannttoss.framework.ui.widget.TextViewExt
+            android:id="@+id/txt_search_result"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:shadowColor="@android:color/darker_gray"
+            android:text="@string/display_all_on_map"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            />
+
+    </RelativeLayout>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/rcv_search_result"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:listitem="@layout/search_result_item" />
+</LinearLayout>

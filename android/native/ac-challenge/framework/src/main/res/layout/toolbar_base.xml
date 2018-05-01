@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+// Copyright © 2018 by Mário Heleno Nazareth Santos - ssannttoss@gmail.com
+// All rights reserved. No part of this publication may be reproduced, distributed, or transmitted
+// in any form or by any means, including photocopying, recording, or other electronic or mechanical
+// methods, without the prior written permission of the publisher
+// For permission requests, send an e-mail write to the publisher address ssannttoss@gmail.com
+-->
+
+ <android.support.v7.widget.Toolbar
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+        android:theme="@style/ThemeOverlay.AppCompat.ActionBar"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+        android:elevation="4dp"
+        app:title="ssannttoss" />

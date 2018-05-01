@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+~ Copyright (c) 2018. Mário Heleno Nazareth Santos - ssannttoss@gmail.com
+-->
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.ssannttoss.android_challenge.mvc.view.search.SearchActView"
+    android:orientation="vertical">
+
+
+    <include
+        layout="@layout/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <ProgressBar
+        android:id="@+id/progress_bar"
+        style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+        android:indeterminate="true"
+        android:layout_width="match_parent"
+        android:layout_height="16dp"
+        android:elevation="4dp"
+        />
+
+    <FrameLayout
+        android:id="@+id/frm_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <FrameLayout
+        android:id="@+id/snackbar_base"
+        android:layout_width="match_parent"
+        android:layout_height="0dp" />
+
+</LinearLayout>
