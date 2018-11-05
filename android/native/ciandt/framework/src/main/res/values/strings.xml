@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+// Copyright © 2018 by Mário Heleno Nazareth Santos - ssannttoss@gmail.com
+// All rights reserved. No part of this publication may be reproduced, distributed, or transmitted
+// in any form or by any means, including photocopying, recording, or other electronic or mechanical
+// methods, without the prior written permission of the publisher
+// For permission requests, send an e-mail write to the publisher address ssannttoss@gmail.com
+-->
+
+<resources>
+    <string name="app_name">framework</string>
+
+    <!-- GoogleMap -->
+    <string name="google_map_api_key">AIzaSyD1Vw_li9RU6s29rtv1AGhrSzpRvtVDpu0</string>
+    <string name="google_map_not_available">Map feature is not available</string>
+
+    <!-- Dialogs -->
+    <string name="show_message_button_ok">Ok</string>
+    <string name="show_error_title">Error</string>
+    <string name="show_error_unexpected_error">Unexpected Error.</string>
+
+    <!-- connection -->
+    <string name="no_network_connection">No network connection.</string>
+    <string name="no_network_connection_retry">Retry</string>
+</resources>
