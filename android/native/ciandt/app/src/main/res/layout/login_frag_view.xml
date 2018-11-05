@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_marginTop="?attr/actionBarSize"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.v7.widget.AppCompatEditText
+        android:id="@+id/edtEmail"
+        style="@style/login"
+
+        android:layout_marginTop="@dimen/md_margin_padding_size_xlarge"
+
+        android:hint="@string/facebook_e_mail"
+        android:inputType="textEmailAddress"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <android.support.v7.widget.AppCompatEditText
+        android:id="@+id/edtPassword"
+        style="@style/login"
+        android:layout_marginStart="0dp"
+        android:layout_marginEnd="0dp"
+        android:hint="@string/password"
+        android:inputType="textPassword"
+        app:layout_constraintEnd_toEndOf="@+id/edtEmail"
+        app:layout_constraintStart_toStartOf="@+id/edtEmail"
+        app:layout_constraintTop_toBottomOf="@+id/edtEmail" />
+
+    <android.support.v7.widget.AppCompatButton
+        android:id="@+id/btnLogin"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:background="@color/md_color_blue_900"
+        android:contentDescription="@string/btn_login_cnt_desc_to_login_as_guest"
+        android:text="@string/log_in_with_facebook"
+        android:textColor="@color/md_color_white_70_percent"
+        app:layout_constraintEnd_toEndOf="@+id/edtPassword"
+        app:layout_constraintStart_toStartOf="@+id/edtPassword"
+        app:layout_constraintTop_toBottomOf="@+id/edtPassword" />
+
+    <android.support.v7.widget.AppCompatButton
+        android:id="@+id/btnGuest"
+        android:contentDescription="@string/btn_guest_cnt_desc_login_as_guest"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:background="@color/common_google_signin_btn_text_dark_focused"
+        android:text="@string/log_in_as_guest"
+        android:textColor="@android:color/white"
+        app:layout_constraintEnd_toEndOf="@+id/btnLogin"
+        app:layout_constraintStart_toStartOf="@+id/btnLogin"
+        app:layout_constraintTop_toBottomOf="@+id/btnLogin" />
+</android.support.constraint.ConstraintLayout>

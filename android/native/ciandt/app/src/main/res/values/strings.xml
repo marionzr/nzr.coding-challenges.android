@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">Weather - Ci&amp;T Interview</string>
+    <string name="title_activity_login_act_view">Sign in</string>
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password (optional)</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+
+    <!-- APIs -->
+    <string name="google_maps_api_key">AIzaSyD1Vw_li9RU6s29rtv1AGhrSzpRvtVDpu0</string>
+    <string name="openweathermap_api_key">9010fa9849dd4ebdc57af207782f2111</string>
+
+    <!-- Please replace the Google API Key by yours -->
+    <string name="map_feature_not_available">Sorry. The map is not available</string>
+    <string name="openweathermap_api_url">http://api.openweathermap.org/data/2.5/weather?lat=%1$f&amp;lon=%2$f&amp;appid=%3$s&amp;units=metric</string>
+    <string name="weather_unit">ºC</string>
+    <string name="temperature_hi">Hi:</string>
+    <string name="temperature_low">Lo:</string>
+    <string name="openweather_icon_url">http://openweathermap.org/img/w/%1$s.png</string>
+    <string name="unable_to_authenticate">Unable to authenticate</string>
+    <string name="unable_to_get_current_location">Unable to get current location</string>
+    <string name="log_in_with_facebook">Log In with Facebook</string>
+    <string name="log_in_as_guest">Log in as Guest</string>
+    <string name="btn_guest_cnt_desc_login_as_guest">Button to Login as Guest</string>
+    <string name="btn_login_cnt_desc_to_login_as_guest">Button to Login as Guest</string>
+    <string name="facebook_e_mail">Facebook e-mail</string>
+    <string name="password">Password</string>
+    <string name="weather_image_description">weather image description</string>
+    <string name="logged_as">You are logged as %1$s</string>
+    <string name="location_source_gps">GPS</string>
+</resources>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/weather_bg"
+    android:layout_marginTop="?attr/actionBarSize"
+    tools:layout_editor_absoluteY="81dp">
+
+    <android.support.v7.widget.AppCompatTextView
+        android:id="@+id/txtLocation"
+        style="@style/weather_text"
+        android:layout_marginStart="@dimen/md_margin_padding_size_xlarge"
+        android:layout_marginTop="@dimen/md_margin_padding_size_xlarge"
+        android:textSize="@dimen/md_typography_regular_headline_text_size"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:shadowRadius="10dp"
+        tools:text="Nova Lima, Brazil" />
+
+    <android.support.v7.widget.AppCompatImageView
+        android:id="@+id/imgWeather"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:layout_marginStart="@dimen/md_margin_padding_size_medium"
+        android:scaleType="fitCenter"
+        app:layout_constraintBottom_toBottomOf="@+id/txtWeather"
+        app:layout_constraintStart_toEndOf="@+id/txtUnit"
+        app:layout_constraintTop_toTopOf="@+id/txtWeather"
+        android:contentDescription="@string/weather_image_description"
+        tools:srcCompat="@drawable/ic_baseline_cloud_24px" />
+
+    <android.support.v7.widget.AppCompatTextView
+        android:id="@+id/txtWeather"
+        style="@style/weather_text"
+        android:layout_marginTop="16dp"
+        android:textSize="@dimen/md_typography_regular_display_4_text_size"
+        app:layout_constraintStart_toStartOf="@+id/txtLocation"
+        app:layout_constraintTop_toBottomOf="@+id/txtLocation"
+        tools:text="33" />
+
+    <android.support.v7.widget.AppCompatTextView
+        android:id="@+id/txtUnit"
+        style="@style/weather_text"
+        android:layout_marginTop="32dp"
+        android:text="@string/weather_unit"
+        app:layout_constraintStart_toEndOf="@+id/txtWeather"
+        app:layout_constraintTop_toTopOf="@+id/txtWeather" />
+
+    <android.support.v7.widget.AppCompatTextView
+        android:id="@+id/txtWeatherDescription"
+        style="@style/weather_text"
+        android:textSize="@dimen/md_typography_regular_subheading_text_size"
+        app:layout_constraintStart_toStartOf="@+id/imgWeather"
+        app:layout_constraintTop_toBottomOf="@+id/imgWeather"
+        tools:text="broken clouds" />
+
+    <android.support.v7.widget.AppCompatTextView
+        android:id="@+id/txtWeatherHi"
+        style="@style/temperature_max_min"
+        app:layout_constraintStart_toStartOf="@+id/txtWeather"
+        app:layout_constraintTop_toBottomOf="@+id/txtWeather"
+        tools:text="Hi: 37" />
+
+    <android.support.v7.widget.AppCompatTextView
+        android:id="@+id/txtWeatherLo"
+        style="@style/temperature_max_min"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintStart_toEndOf="@+id/txtWeatherHi"
+        app:layout_constraintTop_toBottomOf="@+id/txtWeather"
+        tools:text="Lo: 28" />
+
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,42 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Base application theme. -->
+    <style name="AppTheme.Base" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+    <style name="AppTheme" parent="AppTheme.Base"></style>
+
+    <style name="login">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginStart">@dimen/md_margin_padding_size_medium</item>
+        <item name="android:layout_marginEnd">@dimen/md_margin_padding_size_medium</item>
+    </style>
+
+    <style name="temperature_max_min">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop" tools:targetApi="jelly_bean_mr1">@dimen/md_margin_padding_size_small</item>
+        <item name="android:layout_marginEnd">@dimen/md_margin_padding_size_small</item>
+        <item name="android:shadowColor">@android:color/darker_gray</item>
+        <item name="android:shadowDx">0</item>
+        <item name="android:shadowDy">0</item>
+        <item name="android:shadowRadius">15</item>
+        <item name="android:textSize">@dimen/md_typography_regular_body_0_text_size</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="weather_text">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:shadowColor">@android:color/darker_gray</item>
+        <item name="android:shadowDx">0</item>
+        <item name="android:shadowDy">0</item>
+        <item name="android:shadowRadius">15</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+</resources>
